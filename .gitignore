@@ -8,4 +8,7 @@ Makefile
 __pycache__/
 *.class
 *.ipr
-*.iws
+*.iw
+node_modules
+*.idea
+docs/
