@@ -1,0 +1,33 @@
+{
+  "name": "halite-iii",
+  "version": "1.0.0",
+  "description": "Production game ai bot",
+  "main": "MyBot.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomsimpkins/halite-iii.git"
+  },
+  "keywords": [
+    "halite",
+    "bot",
+    "ai"
+  ],
+  "author": "tomsimpkins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomsimpkins/halite-iii/issues"
+  },
+  "homepage": "https://github.com/tomsimpkins/halite-iii#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
