@@ -7,7 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "halite.exe --replay-directory replays/ -vvv --width 32 --height 32 \"node MyBot.js\" \"node MyBot.js\""
   },
   "repository": {
     "type": "git",
@@ -25,7 +26,8 @@
   },
   "homepage": "https://github.com/tomsimpkins/halite-iii#readme",
   "devDependencies": {
-    "@babel/core": "^7.1.2"
+    "@babel/core": "^7.1.2",
+    "prettier": "^1.14.3"
   },
   "dependencies": {
     "lodash": "^4.17.11"
