@@ -22,6 +22,7 @@ game.initialize().then(async() => {
     }
   }
 
+  const collectionInNTurns = (h, n) => n > 0 ? 0.25  * h + collectionInNTurns(0.75 * h, n - 1) : 0
 
   await game.ready('MyJavaScriptBot');
 
